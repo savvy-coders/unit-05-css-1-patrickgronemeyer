@@ -8,3 +8,30 @@
 /* 5. Add a 4-pixel border radius to the form's button element. */
 /* 6. Use the :active pseudo-class to change the background color of the button to "RGB(0, 86, 179)" when active/clicked. */
 
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.container {
+    border: 2px solid rgb(204, 204, 204);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 123, 255); /* Optional: Adds initial background color to the button */
+    border: none; /* Optional: Removes the default border to use border-radius effectively */
+    padding: 10px 20px; /* Optional: Adds some padding for better appearance */
+    border-radius: 4px;
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+button:active {
+    background-color: rgb(0, 86, 179);
+}
+
+
+/* This setup includes the required button within the .container div in the HTML and applies the specified styles through the "style.css" file. The CSS provided above not only meets the challenge requirements but also includeitionals a few additional styles (marked as optional) to improve the button's appearance and usability.
